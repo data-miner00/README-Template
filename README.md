@@ -56,6 +56,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#topology">Topology</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -199,10 +200,49 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## Topology
+
+While I couldn't think of any use case for showing a map on a GitHub README, I thought it would be cool to showcase here. GitHub supports 2 types of topological languages, which are [GeoJSON](https://geojson.org/) and TopoJSON.
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-79.653, 26.717],
+              [-64.823, 32.242],
+              [-68.318, 18.951]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bermuda Triangle"
+      }
+    }
+  ]
+}
+```
+<p align="center">The Bermuda Triangle</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,6 +261,8 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [GeoJSON](https://geojson.org/)
+* [GPS Coordinate](https://www.gps-coordinates.net/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
