@@ -58,6 +58,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#topology">Topology</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#star-history">Star History</a></li>
   </ol>
 </details>
 
@@ -267,6 +268,13 @@ Use this space to list resources you find helpful and would like to give credit 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+<!-- STAR HISTORY -->
+## Star History
+
+A fun graph that shows the total stars of a repository over time. Below is the star history for `facebook/react`. Explore more on [Star History](https://star-history.com/)'s site.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=facebook/react&type=Date)](https://star-history.com/#facebook/react&Date)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
